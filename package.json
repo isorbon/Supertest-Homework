@@ -1,0 +1,30 @@
+{
+  "name": "self_study_studentplace_supertest",
+  "version": "1.0.0",
+  "description": "1. [Node.js](https://rit.accenture.com/ies-confluence/pages/viewpage.action?pageId=65603761#:~:text=Visual%20Studio%20Code.-,Install%20Node.js%3A,-First%20step%20is)/[Mocha](https://rit.accenture.com/ies-confluence/pages/viewpage.action?pageId=65603761#:~:text=Supertest%20configuration.)/[Chai](https://rit.accenture.com/ies-confluence/pages/viewpage.action?pageId=65603761#:~:text=Supertest%20configuration.)/[Babel](https://rit.accenture.com/ies-confluence/pages/viewpage.action?pageId=65603761#:~:text=Supertest%20configuration.)/[Supertest](https://rit.accenture.com/ies-confluence/pages/viewpage.action?pageId=65603761#:~:text=Supertest%20configuration.)/[Git](https://rit.accenture.com/ies-confluence/display/STA/Git+Basics+JavaScript#GitBasicsJavaScript-Selectingtheworkingdirectory) installed and configured\r 1. [Visual Studio Code](https://rit.accenture.com/ies-confluence/pages/viewpage.action?pageId=65603761#:~:text=Installing%20an%20IDE%2C%20in%20our%20case%20Visual%20Studio%20Code.) is installed\r ## **Setup local workspace**\r 1. [Select the working directory](https://rit.accenture.com/ies-confluence/display/STA/Git+Basics#GitBasics-Selectingtheworkingdirectory)\r 1. [Clone the repository](https://rit.accenture.com/ies-confluence/display/STA/Git+Basics#:~:text=Cloning%20the%20repository) (Repository: <https://rit.accenture.com/gitlab/java_automation/self_study_unresolved_materials/-/tree/SuperTest_HomeWork_Unresolved>)\r 1. [Checkout your branch](https://rit.accenture.com/ies-confluence/display/STA/Git+Basics#:~:text=Checkout%20the%20feature%20branch)\r 1. Import the project in to Visual Studio Code\r 1. Configure project as explained in the [6th video](https://www.youtube.com/watch?v=7cDRqi2G6Nw&list=PL6AdzyjjD5HDR2kNRU2dA1C8ydXRAaaBV&index=6) of the Youtube course.\r ## **Application under test**\r The application under test in this exercise is a RESTful API and you can find the swagger documentation in the location [**https://petstore.swagger.io/#/](https://petstore.swagger.io/#/)**.**",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 5000",
+    "test-all": "mocha runAll.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://rit.accenture.com/gitlab/java_automation/self_study_studentplace_supertest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.20.5",
+    "@babel/node": "^7.20.5",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/register": "^7.18.9",
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "supertest": "^6.3.3"
+  },
+  "dependencies": {
+    "@babel/plugin-transform-runtime": "^7.19.6"
+  }
+}
